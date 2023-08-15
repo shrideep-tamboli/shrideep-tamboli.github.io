@@ -445,6 +445,10 @@ textarea.form-control {
     font-size: 50%;
     margin-left: 0.1em;
 }
+.circular-image {
+        border-radius: 50%;
+        overflow: hidden;
+    }
 
 /* ---------------------------------------------- /*
  * Contact
