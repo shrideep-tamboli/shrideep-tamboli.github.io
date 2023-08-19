@@ -976,3 +976,38 @@ figure.effect-bubba:hover p {
 
 }
 
+/* Style for the two-column layout */
+.two-column-layout {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the left column containing the image */
+.left-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the centered image */
+.centered-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Style for the right column containing the text */
+.right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style for the centered text */
+.centered-text {
+    max-width: 80%;
+    margin: 0 auto;
+}
