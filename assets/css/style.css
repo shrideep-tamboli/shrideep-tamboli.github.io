@@ -991,13 +991,15 @@ figure.effect-bubba:hover p {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
 }
 
 /* Style for the centered image */
 .centered-image img {
-    width: 80%; /* Set the desired width */
-    max-width: auto; /* Limit the maximum width of the image */
-    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    height: 50vh; /* Set the height to 50% of the viewport height */
+    width: auto; /* Automatically adjust width to maintain aspect ratio */
+    max-width: 100%; /* Limit maximum width to the container's width */
+    max-height: 100%; /* Limit maximum height to the container's height */
 }
 
 /* Style for the right column containing the text */
@@ -1014,4 +1016,3 @@ figure.effect-bubba:hover p {
     max-width: 80%;
     margin: 0 auto;
 }
-
