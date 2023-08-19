@@ -1007,7 +1007,7 @@ figure.effect-bubba:hover p {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
 }
 
