@@ -980,7 +980,9 @@ figure.effect-bubba:hover p {
 .two-column-layout {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
+    background-color: #f0f0f0; /* Background color for the whole section */
 }
 
 /* Style for the left column containing the image */
@@ -993,10 +995,10 @@ figure.effect-bubba:hover p {
 
 /* Style for the centered image */
 .centered-image img {
+    width: 80%; /* Set the desired width */
     max-width: 300px; /* Limit the maximum width of the image */
-    max-height: 300px; /* Limit the maximum height of the image */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
 }
-
 
 /* Style for the right column containing the text */
 .right-column {
@@ -1012,3 +1014,4 @@ figure.effect-bubba:hover p {
     max-width: 80%;
     margin: 0 auto;
 }
+
