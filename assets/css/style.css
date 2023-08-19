@@ -993,8 +993,6 @@ figure.effect-bubba:hover p {
 
 /* Style for the centered image */
 .centered-image img {
-    width: 100%; /* Set the desired width */
-    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
     max-width: 300px; /* Limit the maximum width of the image */
     max-height: 300px; /* Limit the maximum height of the image */
 }
