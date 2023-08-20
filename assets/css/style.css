@@ -1016,3 +1016,16 @@ figure.effect-bubba:hover p {
     max-width: 80%;
     margin: 0 auto;
 }
+
+.github-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none; /* Remove the default underline for links */
+}
+
+.github-link h3 {
+    margin-left: 10px; /* Add space between icon and text */
+}
