@@ -483,7 +483,7 @@ textarea.form-control {
     color: #ff5252;
 }
 
-.social_media a {color: #D2D2D2;}
+.social_media a {color: #000000;}
 .social_media a:hover, #intro .social_media a:focus {color: #87DEAE;}
 
 .social-links {
