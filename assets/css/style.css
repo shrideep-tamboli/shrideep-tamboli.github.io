@@ -1026,6 +1026,10 @@ figure.effect-bubba:hover p {
     text-decoration: none; /* Remove the default underline for links */
 }
 
+.github-link i {
+    color: #000000; /* Set the color of the GitHub icon to black */
+}
+
 .github-link h3 {
     margin-left: 10px; /* Add space between icon and text */
 }
