@@ -733,36 +733,49 @@ textarea.form-control {
 }
 
 .grid figure {
-    position: relative;
-    overflow: hidden;
-    width: 360px;
-    height: 192px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 100%;
+	max-width: 100%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
 }
 
 .grid figure img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	position: relative;
+	display: block;
+	min-height: auto;
+	max-width: 100%;
+	opacity: 0.8;
 }
 
 .grid figure figcaption {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 2em;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.25em;
     text-align: center;
-    z-index: 1;
+    z-index: 1; /* Adjust the z-index to be above the overlay */
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 0; /* Set the z-index to be below the caption */
+}
+
 
 .grid figure figcaption::before,
 .grid figure figcaption::after {
@@ -802,31 +815,6 @@ textarea.form-control {
 	margin: 0;
 }
 
-.grid figure figcaption h2 {
-    margin: 0;
-}
-
-.grid figure figcaption p {
-    margin: 0;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.overlay p {
-    margin: 0;
-    font-size: 1.1em;
-}
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
