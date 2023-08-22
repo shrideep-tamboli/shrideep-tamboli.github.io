@@ -802,6 +802,14 @@ textarea.form-control {
 	margin: 0;
 }
 
+.grid figure figcaption h2 {
+    margin: 0;
+}
+
+.grid figure figcaption p {
+    margin: 0;
+}
+
 .overlay {
     position: absolute;
     top: 0;
