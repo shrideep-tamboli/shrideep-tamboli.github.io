@@ -733,34 +733,35 @@ textarea.form-control {
 }
 
 .grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 100%;
-	max-width: 100%;
-	height: auto;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    height: 192px;
 }
 
 .grid figure img {
-	position: relative;
-	display: block;
-	min-height: auto;
-	max-width: 100%;
-	opacity: 0.8;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .grid figure figcaption {
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    text-align: center;
+    z-index: 1;
 }
 
 .grid figure figcaption::before,
@@ -801,6 +802,23 @@ textarea.form-control {
 	margin: 0;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 1.1em;
+}
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
