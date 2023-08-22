@@ -7,6 +7,15 @@
  * Copyright 2015 Script Eden
  * Licensed under MIT
 */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 0; /* Set the z-index to be below the caption */
+}
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
