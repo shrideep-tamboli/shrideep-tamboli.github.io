@@ -763,20 +763,13 @@ textarea.form-control {
 }
 
 .grid figure figcaption {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 2em;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.25em;
-    text-align: center;
-    z-index: 1;
-    width: 100%; /* Set the width of the figcaption */
-    height: 100%; /* Set the height of the figcaption */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	text-align: center;
 }
 
 .grid figure figcaption::before,
