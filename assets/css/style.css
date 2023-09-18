@@ -291,6 +291,15 @@ textarea.form-control {
 .pfblock-icon {
 	font-size: 32px;
 }
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+
 .calltoaction *{
     text-align: center;
 }
