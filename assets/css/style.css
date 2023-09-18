@@ -298,7 +298,7 @@ textarea.form-control {
     justify-content: flex-start;
     align-items: flex-start;
     height: 100%;
-    margin-top: 100%;
+    margin-top: 50%;
 }
 
 .calltoaction *{
