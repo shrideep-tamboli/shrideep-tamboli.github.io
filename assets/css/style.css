@@ -310,6 +310,10 @@ textarea.form-control {
     margin: 0; /* Remove default margin to ensure accurate centering */
 }
 
+.text-center {
+    text-align: center;
+}
+
 .calltoaction *{
     text-align: center;
 }
