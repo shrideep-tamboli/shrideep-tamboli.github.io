@@ -294,18 +294,21 @@ textarea.form-control {
 
 .project-info-wrapper {
     display: flex;
-    align-items: center; /* Center vertically */
+    align-items: center; /* Center vertically within the container */
     height: 100%;
 }
 
 .project-info {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically within the container */
-    align-items: center; /* Center horizontally within the container */
-    height: 100%;
+    align-items: flex-start;
 }
 
+/* Additional styles to vertically center the text within the project-info container */
+.project-info h3,
+.project-info p {
+    margin: 0; /* Remove default margin to ensure accurate centering */
+}
 
 .calltoaction *{
     text-align: center;
