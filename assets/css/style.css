@@ -292,12 +292,16 @@ textarea.form-control {
 	font-size: 32px;
 }
 
+.project-info-wrapper {
+    display: flex;
+    align-items: center; /* Center vertically */
+    height: 100%;
+}
+
 .project-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    height: 100%;
 }
 
 .calltoaction *{
