@@ -296,6 +296,7 @@ textarea.form-control {
 .project-title {
     margin-top: 0; /* Remove default top margin */
     margin-left: 0;
+    margin-bottom: 0;
 }
 
 .project-title1 {
