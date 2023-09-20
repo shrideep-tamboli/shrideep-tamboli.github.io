@@ -298,6 +298,11 @@ textarea.form-control {
     margin-left: 0;
 }
 
+.project-title1 {
+    margin-top: 50%; /* Remove default top margin */
+    margin-left: 0;
+}
+
 /* Center the project description vertically within img01 */
 .project-info {
     display: flex;
