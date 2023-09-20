@@ -292,30 +292,18 @@ textarea.form-control {
 	font-size: 32px;
 }
 
-.project-info-wrapper {
+/* Center the project title horizontally */
+.project-title {
     display: flex;
-    align-items: center; /* Center vertically within the container */
+    align-items: center;
     height: 100%;
 }
 
-.project-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-/* Additional styles to vertically center the text within the project-info container */
-.project-info h3,
-.project-info p {
-    margin: 0; /* Remove default margin to ensure accurate centering */
-}
-
-.centered-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center vertically within the container */
-    align-items: center; /* Center horizontally within the container */
-    height: 100%;
+/* Position the project description within img01 */
+.description-container {
+    position: absolute;
+    top: 50%; /* Vertically center the description within img01 */
+    transform: translateY(-50%); /* Adjust for vertical alignment */
 }
 
 .calltoaction *{
