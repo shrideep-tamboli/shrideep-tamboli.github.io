@@ -302,12 +302,13 @@ textarea.form-control {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 100%
+    margin-top: 50%;
 }
 
 /* Additional styling for the project description */
 .project-description {
-    margin-top: auto; /* Push the description to the bottom of the container */
+    margin-top: 0; /* Push the description to the bottom of the container */
 }
 
 .calltoaction *{
