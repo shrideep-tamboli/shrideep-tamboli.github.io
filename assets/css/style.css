@@ -301,8 +301,11 @@ textarea.form-control {
 .project-info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center; /* Start content from the top of the container */
+    align-items: center; /* Center horizontally within the container */
+    height: 100%;
 }
+
 
 .calltoaction *{
     text-align: center;
