@@ -310,8 +310,12 @@ textarea.form-control {
     margin: 0; /* Remove default margin to ensure accurate centering */
 }
 
-.text-center {
-    text-align: center;
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically within the container */
+    align-items: center; /* Center horizontally within the container */
+    height: 100%;
 }
 
 .calltoaction *{
