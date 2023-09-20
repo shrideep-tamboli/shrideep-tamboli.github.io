@@ -295,6 +295,7 @@ textarea.form-control {
 /* Style for the project title */
 .project-title {
     margin-top: 0; /* Remove default top margin */
+    margin-left: 0;
 }
 
 /* Center the project description vertically within img01 */
