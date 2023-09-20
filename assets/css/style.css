@@ -299,8 +299,8 @@ textarea.form-control {
 }
 
 .project-title1 {
-    margin-top: 50%; /* Remove default top margin */
-    margin-left: 0;
+    margin-top: 0; /* Remove default top margin */
+    margin-bottom: 0;
 }
 
 /* Center the project description vertically within img01 */
@@ -308,8 +308,8 @@ textarea.form-control {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%
-    margin-top: 50%;
+    align-items: flec-starts;
+    height: 100%;
 }
 
 /* Additional styling for the project description */
