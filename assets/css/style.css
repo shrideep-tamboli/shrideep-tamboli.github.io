@@ -1058,8 +1058,10 @@ figure.effect-bubba:hover p {
 
 /* Style for the centered text in left column */
 .centered-text-left {
-    max-width: 80%;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%; /* Position it 50% from the top of the parent container */
+    transform: translateY(50%); /* Move it up by 50% of its own height */
+    text-align: center;
 }
 
 /* Style for the centered text */
