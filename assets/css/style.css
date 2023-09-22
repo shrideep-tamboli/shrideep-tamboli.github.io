@@ -1043,7 +1043,12 @@ figure.effect-bubba:hover p {
 /* Style for the centered image */
 .centered-image img {
     max-height: 100%;
-    width: auto;
+    height: auto;
+}
+
+/* Style for the centered text in left column */
+.centered-text-left {
+        text-align: center;
 }
 
 /* Style for the right column containing the text */
@@ -1053,11 +1058,6 @@ figure.effect-bubba:hover p {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-}
-
-/* Style for the centered text in left column */
-.centered-text-left {
-        text-align: center;
 }
 
 /* Style for the centered text */
