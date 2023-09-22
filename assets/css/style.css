@@ -1032,19 +1032,18 @@ figure.effect-bubba:hover p {
 
 /* Style for the left column containing the image */
 .left-column {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Ensure the image doesn't overflow its container */
+    height: 100vh;
+    width: 50%;
+    overflow: hidden;/* Ensure the image doesn't overflow its container */
 }
 
 /* Style for the centered image */
 .centered-image img {
-    height: 30vh; /* Set the height to 80% of the viewport height */
-    width: auto; /* Automatically adjust width to maintain aspect ratio */
-    max-width: 100%; /* Limit maximum width to the container's width */
-    max-height: 100%; /* Limit maximum height to the container's height */
+    max-height: 100%;
+    width: auto;
 }
 
 /* Style for the right column containing the text */
@@ -1058,10 +1057,7 @@ figure.effect-bubba:hover p {
 
 /* Style for the centered text in left column */
 .centered-text-left {
-    position: absolute;
-    top: 50%; /* Position it 50% from the top of the parent container */
-    transform: translateY(50%); /* Move it up by 50% of its own height */
-    text-align: center;
+        text-align: center;
 }
 
 /* Style for the centered text */
