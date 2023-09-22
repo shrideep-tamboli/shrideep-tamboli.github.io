@@ -1033,6 +1033,7 @@ figure.effect-bubba:hover p {
 /* Style for the left column containing the image */
 .left-column {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
