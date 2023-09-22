@@ -837,17 +837,17 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-hubba {
-	background: #0e577f;
+	background: #ffffe4;
 }
 
 figure.effect-hubba img {
 	opacity: 0.7;
-	-webkit-transition: opacity 0.35s;
+	-webkit-transition: opacity 0.0s;
 	transition: opacity 0.35s;
 }
 
 figure.effect-hubba:hover img {
-	opacity: 0.4;
+	opacity: 0.9;
 }
 
 /*---------------*/
