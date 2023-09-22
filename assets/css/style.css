@@ -837,7 +837,6 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-hubba {
-	background: #ffffe4;
 }
 
 figure.effect-hubba img {
@@ -846,7 +845,8 @@ figure.effect-hubba img {
 	transition: opacity 0.35s;
 }
 
-figure.effect-hubba:hover img {
+figure.effect-hubba:hover img {	
+	background: #ffffe4;
 	opacity: 0.9;
 }
 
