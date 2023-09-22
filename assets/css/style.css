@@ -1045,6 +1045,7 @@ figure.effect-bubba:hover p {
 .centered-image img {
     max-height: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 /* Style for the centered text in left column */
