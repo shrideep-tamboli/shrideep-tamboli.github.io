@@ -837,7 +837,7 @@ textarea.form-control {
 /*---------------*/
 
 figure.effect-hubba { 
-    background: transparent; /* Set the default background to transparent */
+    background: #ffffe4; /* Set the default background to transparent */
 }
 
 figure.effect-hubba img {
@@ -847,7 +847,7 @@ figure.effect-hubba img {
 }
 
 figure.effect-hubba:hover img {
-    background: #ffffe4; /* Apply the background color on hover */
+    opacity: 0.7; /* Apply the background color on hover */
 }
 
 
